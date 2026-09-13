@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --background: #121212;
+  --foreground: #ffffff;
+  --primary-accent: #c5a059;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-accent: var(--primary-accent);
+  --font-sans: var(--font-bebas-neue);
+}
