@@ -14,7 +14,7 @@ export const CarouselCard = ({ item }: { item: WorkItem }) => {
           src={item.src}
           alt={item.alt}
           fill
-          className={`object-cover object-center transition-transform duration-700 ease-out ${"md:group-hover:scale-110 group-active:scale-110"}`}
+          className={`object-cover object-center transition-transform duration-700 ease-out select-none ${"md:group-hover:scale-110 group-active:scale-110"}`}
         />
 
         {/* Gradient Mask for Shadow Effect */}
